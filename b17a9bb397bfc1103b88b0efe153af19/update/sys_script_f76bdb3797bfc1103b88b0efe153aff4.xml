@@ -8,7 +8,7 @@
         <action_update>false</action_update>
         <active>true</active>
         <add_message>false</add_message>
-        <advanced>false</advanced>
+        <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
         <collection/>
@@ -29,7 +29,7 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	// Add your code here
+	// Added for this demo only
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -39,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f76bdb3797bfc1103b88b0efe153aff4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Test</sys_name>
         <sys_overrides/>
         <sys_package display_value="OnCallDemo" source="x_12779_oncalldemo">b17a9bb397bfc1103b88b0efe153af19</sys_package>
@@ -48,7 +48,7 @@
         <sys_scope display_value="OnCallDemo">b17a9bb397bfc1103b88b0efe153af19</sys_scope>
         <sys_update_name>sys_script_f76bdb3797bfc1103b88b0efe153aff4</sys_update_name>
         <sys_updated_by>ujjawal</sys_updated_by>
-        <sys_updated_on>2022-06-07 13:14:27</sys_updated_on>
+        <sys_updated_on>2022-06-07 13:30:30</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
